@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+\usepackage{bbding}
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Ernest Jęczmionek -- Résumé} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> Krakowska 218,\\ % Address line 1
+\> 32-043 Cianowice \\ % Address line 2
+{\bf Date of Birth} \> 6$^{th}$ January 1994 \\ % Date of birth 
+%{\bf Nationality} \> Polish % Nationality
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Mobile Phone} \> +48 534 744 654 \\ % Mobile phone
+{\bf Email} \> \href{mailto:4jeczmionek@fis.agh.edu.pl}{4jeczmionek@fis.agh.edu.pl} \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\tabbedblock{
+\bf{2018-} \> MSc in Applied Computer Science - \href{http://www.fis.agh.edu.pl/indexe.html}{AGH f.Physics and Applied Computer Science} \\[5pt]
+\>\+
+\textit{Specialisation: data modelling and analysis}\\
+}
+
+%------------------------------------------------
+
+\tabbedblock{
+\bf{2014-2018} \> BSc in Applied Computer Science - \href{http://www.fis.agh.edu.pl/indexe.html}{AGH f.Physics and Applied Computer Science} \\[5pt]
+\>\+
+\textit{Specialisations: numerical methods and embedded systems}\\
+}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\job
+{Sep 2018 -}{Current}
+{FlyTech UAV}
+{https://www.flytechuav.pl/}
+{Developer R\&D}
+{ROS, C++, Qt5, Python, data postprocessing\\
+\rule{0mm}{5mm}}
+
+\job
+{Jul 2017 -}{Nov 2017}
+{ABB Corporate Research Center in Poland}
+{http://new.abb.com/about/technology/corporate-research-centers/corporate-research-center-poland}
+{Intern/Developer R\&D}
+{Development of tools, tests and continous integration. C++17, Catch, Jenkins\\
+\rule{0mm}{5mm}}
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Software Engineering Skills}
+
+\skillgroup{Programming Languages}
+{
+\begin{minipage}{0.1\textwidth}
+\textit{C++17} \\
+\textit{Python3} \\
+\textit{CUDA} \\
+\end{minipage}
+\begin{minipage}{0.1\textwidth}
+\FiveStar \FiveStar \FiveStar \\
+\FiveStar \FiveStar \FiveStarOpen \\
+\FiveStar \FiveStar \FiveStarOpen \\
+\end{minipage}
+}
+
+%------------------------------------------------
+
+\skillgroup{Miscellaneous}
+{
+\textit{Git}\\
+\textit{Machine learning}\\
+\textit{Design patterns}
+}
+\tiny{
+I hereby agree for my personal data, included in my job application, to be processed in line with the needs of recruitment, in accordance with the Law on Personal Data Protection of 29 August 1997 (Law Gazette from 2002, No.101, heading 926, as amended).
+}
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
